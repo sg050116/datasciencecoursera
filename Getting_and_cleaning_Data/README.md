@@ -1,4 +1,4 @@
-## This is the courses project for Getting and cleaning data
+# This is the courses project for Getting and cleaning data
 
 Instruction for peer review:
 
@@ -11,8 +11,8 @@ or you can just download whole file in my repo
 $ source("run_analysis.R")
 
 3. You will find 
-* merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
-* data_with_means.txt (220 Kb): it contains a data frame called result with 180*68 dimension.
+merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
+data_with_means.txt (220 Kb): it contains a data frame called result with 180*68 dimension.
 
 4. Then run following command in R:
 $ check <- read.table("data_with_means.txt")
