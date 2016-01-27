@@ -1,7 +1,6 @@
 # This is the courses project for Getting and cleaning data
 
-Instruction for peer review:
-
+###Instruction for peer review:
 1. Download and unzip your database to "data" from
 (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 <br> `or you can just download whole file in my repo` <br>
@@ -10,8 +9,8 @@ Instruction for peer review:
 $ source("run_analysis.R")
 ```
 3. You will find<br>
-> merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
-> data_with_means.txt (220 Kb): it contains a data frame called result with 180*68 dimensio
+		merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
+		data_with_means.txt (220 Kb): it contains a data frame called result with 180*68 dimensio
 4. Then run following command in R:<br>
 ```R
 $ check <- read.table("data_with_means.txt")
