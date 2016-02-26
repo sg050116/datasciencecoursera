@@ -53,8 +53,8 @@ You should create one R script called run_analysis.R that does the following.
 5. open a R console and set the working directory to the repository root (use setwd())
 6. source run_analisys.R script : `source('run_analysis.R')`.In the repository root directory you find the file `data_with_means` with the tidy data set.
 7. you will find 
-* merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
-* data_with_means.txt (220 Kb): it contains a data frame called result with 180*68 dimension.
+(1)merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
+(2)data_with_means.txt (220 Kb): it contains a data frame called result with 180*68 dimension.
 8. check the result: `read.table("data_with_means.txt")`
 you will found the 180 rows with all combinations for each of the 66 features.<br>
 
