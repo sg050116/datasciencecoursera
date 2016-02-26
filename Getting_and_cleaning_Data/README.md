@@ -49,14 +49,11 @@ You should create one R script called run_analysis.R that does the following.
 1. clone this repository: `git clone git@github.com:sg050116/datasciencecoursera.git`
 2. download [compressed raw data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 3. unzip raw data and copy the directory `UCI HAR Dataset` to the cloned repository root directory & rename the `UCI HAR Dataset` into `data`
-4. you will find
-- merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
-- data_with_means.txt (220 Kb): it contains a data frame called result with 180*68 dimensio
+4. you will find 
+(1) merged_data.txt (7.9 Mb): it contains a data frame called cleanedData with 10299*68 dimension.
+(2) data_with_means.txt (220 Kb): it contains a data frame called result with 180*68 dimensio
 5. open a R console and set the working directory to the repository root (use setwd())
-6. source run_analisys.R script : `source('run_analysis.R')`
-
-
-In the repository root directory you find the file `data_with_means` with the tidy data set.# This is the courses project for Getting and cleaning data
+6. source run_analisys.R script : `source('run_analysis.R')`.In the repository root directory you find the file `data_with_means` with the tidy data set.
 7. check the result: `read.table("data_with_means.txt")`
 you will found the 180 rows with all combinations for each of the 66 features.<br>
 
