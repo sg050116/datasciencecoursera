@@ -1,0 +1,125 @@
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+z <- 10#
+f(3)
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y
+h <- function(x, y = NULL, d = 3L) {#
+        z <- cbind(x, d)#
+        if(!is.null(y))#
+                z <- z + y#
+        else#
+                z <- z + f#
+        g <- x + y / z#
+        if(d == 3L)#
+                return(g)#
+        g <- g + 10#
+        g#
+}
+f
+z
+clear
+clear all
+clr all
+clr
+h <- function(x, y = NULL, d = 3L) {#
+        z <- cbind(x, d)#
+        if(!is.null(y))#
+                z <- z + y#
+        else#
+                z <- z + f#
+        g <- x + y / z#
+        if(d == 3L)#
+                return(g)#
+        g <- g + 10#
+        g#
+}
+f
+z
+d
+L
+g
+library(datasets)#
+data(iris)
+?iris
+mean(iris$Sepal.Length [iris$Species=="virginica"],na.rm=TRUE)
+apply(iris[, 1:4], 2, mean)
+library(datasets)#
+data(mtcars)
+?mtcars
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+split(mtcars, mtcars$cyl)
+tapply(mtcars$hp, mtcars$cyl, mean)#
+209.21429 - 82.63636
+tapply(mtcars$hp, mtcars$cyl, mean)
+209.21429 - 82.63636
+debug(ls)
+ls
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+submit()
+wdir
+1
+submit()
+ls()
+ls
+ls()
+x <- c(4, TRUE)#
+class(x)
+x <- c(1,3, 5)#
+y <- c(3, 2, 10)#
+cbind(x, y)
+x <- list(2, "a", "b", TRUE)#
+x[[2]]
+x <- list(2, "a", "b", TRUE)#
+x[[1]]
+class x
+class(x)
+x <- 1:4#
+y <- 2#
+x + y
+x <- c(17, 14, 4, 5, 13, 12, 10)#
+x[x >= 11] <- 4
+x <- list(2, "a", "b", TRUE)#
+> x[[2]]
+x <- list(2, "a", "b", TRUE)
+x[[2]]
+college <- read.delim("http://www.stat.ucla.edu/~vlew/datasets/college.txt")#
+View(college$Enrollment)
+library(datasets)#
+data(iris)
+?iris
+mean(iris$Sepal.Length [iris$Species=="virginica"],na.rm=TRUE)
+apply(iris[, 1:4], 2, mean)
+library(datasets)#
+data(mtcars)
+?mtcars
+split(mtcars, mtcars$cyl)
+sapply(split(mtcars$mpg, mtcars$cyl), mean)
+tapply(mtcars$hp, mtcars$cyl, mean)
+209.21429 - 82.63636
+debug(ls)
+ls
+debug(ls)
+ls
+setd
+load(".RData")
+best("SC", "heart attack")
+source("/Users/user/Desktop/data-scientist/R-progroaming/HW-P3/rprog-data-ProgAssignment3-data/best.R")
+best("SC", "heart attack")
+ls()
+setwd()
+setwd("/Users/user/Desktop/data-scientist/Github/datasciencecoursera/Getting_and_cleaning_Data")
+getwd()
+source("/Users/user/Desktop/data-scientist/Github/datasciencecoursera/Getting_and_cleaning_Data/run_analysis.R")
+source("run_analysis.R")
+data <- read.table("data_with_means.txt")
